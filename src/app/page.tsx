@@ -145,7 +145,7 @@ export default function Home() {
       <section
         id="About"
         ref={aboutRef}
-        className={`h-screen bg-white flex items-center justify-center transition-opacity duration-1000 ${
+        className={`min-h-screen bg-white flex items-center justify-center transition-opacity duration-1000 ${
           isAboutVisible ? "animate-fadeIn" : "opacity-0"
         }`}
       >
